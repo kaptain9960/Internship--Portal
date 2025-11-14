@@ -23,12 +23,12 @@ from decouple import config
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = config("ep6j27*nycl-uy4@k#)p&%o6%*s-94!v_9d@bnic_zgzu4=f)(")
+SECRET_KEY = config("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'internship-portal.onrender.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', "internship-portal.onrender.com"]
 
 
 # Application definition
